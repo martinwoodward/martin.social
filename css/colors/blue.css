@@ -1,0 +1,79 @@
+
+/*  BLUE COLOUR TEMPLATE:
+    HIGHLIGHTS, BUTTONS, BACKGROUND COLOUR & SOCIAL MEDIA ICONS */
+
+    body {
+        background-color: #F5F7F9;
+    }
+    
+    .text-custom {
+        color: rgb(79, 124, 254);
+    }
+    
+    .rounded-circle {
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    .first-title {
+        color: rgb(61, 59, 60);
+    }
+    
+    .header-name {
+        color: rgb(61, 59, 60);
+    }
+    
+    .copyright_content {
+        color: rgb(61, 59, 60);
+    }
+    
+    /* Basic Icons Info -----------------------------------------------------------------------------------*/
+    
+    .about-social li a {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 124, 254);
+        display: inline-block;
+        height: 42px;
+        width: 42px;
+        font-size: 20px;
+        border-radius: 50%;
+        border: 2px solid rgb(79, 124, 254);
+        line-height: 38px;
+        transition: all 0.5s;
+        text-align: center;
+        box-shadow: 2px 5px 8px rgba(0,0,0,30%);
+    }
+    
+    .about-social li a:hover {
+        border: 2px solid rgb(79, 124, 254);
+        color: rgb(79, 124, 254);
+        background-color: #F5F7F9;
+    }
+    
+    /* Button Colours & Info --------------------------------------------------------------------------------*/
+    
+    .btn-custom {
+        padding: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.5s;
+        letter-spacing: 0.6px;
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(79, 124, 254);
+        background-color: rgb(79, 124, 254);
+        box-shadow: 2px 3px 7px rgba(0,0,0,40%);
+    }
+    
+    .btn-custom:hover,
+    .btn-custom:focus,
+    .btn-custom:active,
+    .btn-custom.active,
+    .btn-custom.focus,
+    .btn-custom:active,
+    .btn-custom:focus,
+    .btn-custom:hover,
+    .open > .dropdown-toggle.btn-custom {
+        color: rgb(79, 124, 254);
+        background-color: #F5F7F9;
+        border-color: rgb(79, 124, 254);
+    }
